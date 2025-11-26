@@ -65,7 +65,7 @@ namespace ConsoleAppEjercicio1.Dominio
 
         public void ListarEmpleados()
         {
-            Console.WriteLine("=== Empleados (Dictionary) ===");
+            Console.WriteLine("=== Listar Empleados (Dictionary) ===");
             foreach(var item in _empleados)
             {
                 Console.WriteLine($"Clave (Id): {item.Key} \t {item.Value}");
